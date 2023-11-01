@@ -30,6 +30,11 @@ main {
   justify-content: center;
   padding: 5rem 0;
 }
+@media (min-width: 500px) {
+  main {
+    padding: 0 1rem;
+  }
+}
 
 .container {
   background-color: var(--Dark-desaturated-blue--card-background);
